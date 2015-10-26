@@ -1,6 +1,6 @@
 {
   "name": "social-share-ru",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Социальные кнопки для верстки (HTML & CSS & Inline-CSS BASE64 SVG).",
   "main": [
     "style.css",

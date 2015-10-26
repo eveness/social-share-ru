@@ -1,0 +1,27 @@
+{
+  "name": "social-share-ru",
+  "version": "1.0.1",
+  "description": "Социальные кнопки для верстки (HTML & CSS & Inline-CSS BASE64 SVG).",
+  "main": [
+    "style.css",
+    "style.less",
+    "index.html"
+  ],
+  "ignore": [
+    "node_modules"
+  ],
+  "keywords": [
+    "less",
+    "css",
+    "html",
+    "social"
+  ],
+  "authors": [
+    "Eveness (https://github.com/eveness)"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eveness/social-share-ru.git"
+  }
+}

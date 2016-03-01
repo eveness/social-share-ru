@@ -27,7 +27,7 @@ git clone https://github.com/eveness/social-share-ru.git
 `{{via}}` | Ник автора в Twitter, без `@`.
 `{{html}}` | HTML-код для поста (URL-кодированный) для LiveJournal, например `<p>{{description}}</p><p><a href="{{url}}">Подробнее</a></p>`.
 
-## Использование разметки OpenGraph
+## Использование разметки Open Graph
 Для контроля передачи данных в `<head>` добавить метаданные:
 ```html
   <meta property="og:title" content="{{title}}">
@@ -54,3 +54,9 @@ git clone https://github.com/eveness/social-share-ru.git
 - [Элементарные социальные share-кнопки](http://habrahabr.ru/post/156185/)
 - [LiveJournal share button](http://expange.ru/e/LiveJournal+share+button)
 - [Facebook - A Guide to Sharing for Webmasters](https://developers.facebook.com/docs/sharing/webmasters)
+
+## SSL & Facebook
+
+В процессе эксплуатации была найдена такая проблема: Facebook не хотел парсить страницы, размеченные Open Graph с ошибкой `Curl Error : SSL_PEER_CERTIFICATE SSL: no alternative certificate subject name matches target host name`. Это было связано с обращением к сайту по протоколу IPv6, а SSL-сертификат был установлен только на IPv4. Помогло удаление AAAA-записи для домена.
+
+Посмотреть информацию по отображению страницы и возможные ошибки парсинга для Facebook можно в [Open Graph Object Debugger](https://developers.facebook.com/tools/debug/).

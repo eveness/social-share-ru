@@ -53,3 +53,4 @@ git clone https://github.com/eveness/social-share-ru.git
 - [Social Media Colours – Hex and RGB Colours of the Web](http://designpieces.com/2012/12/social-media-colours-hex-and-rgb/)
 - [Элементарные социальные share-кнопки](http://habrahabr.ru/post/156185/)
 - [LiveJournal share button](http://expange.ru/e/LiveJournal+share+button)
+- [Facebook - A Guide to Sharing for Webmasters](https://developers.facebook.com/docs/sharing/webmasters)
